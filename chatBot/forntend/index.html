@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Chatbot Educativo IA</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="app">
+
+    <!-- HEADER -->
+    <header class="header">
+        🤖 Chatbot Universitario de Programación
+    </header>
+
+    <!-- CHAT -->
+    <main id="chat" class="chat"></main>
+
+    <!-- INPUT -->
+    <footer class="input-area">
+        <input 
+            type="text" 
+            id="message" 
+            placeholder="Escribe o habla tu pregunta..."
+            autocomplete="off"
+        >
+        <button onclick="sendMessage()">Enviar</button>
+        <button onclick="startVoice()">🎤</button>
+    </footer>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
