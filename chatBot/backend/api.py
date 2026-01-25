@@ -14,7 +14,7 @@ def limpiar_texto(texto):
     return texto
 
 app = Flask(__name__)
-CORS(app)  # 👈 ESTO SOLUCIONA EL PROBLEMA
+CORS(app)  
 
 # Verificación de modelo
 if not os.path.exists("model.pkl") or not os.path.exists("vectorizer.pkl"):
@@ -44,7 +44,10 @@ def chat():
         })
 
     response = model.predict(X)[0]
-    return jsonify({"response": response})
+    return jsonify({
+        "response": response,
+        "confidence": round(confidence, 2)
+    })
 
 if __name__ == "__main__":
     app.run(debug=True)

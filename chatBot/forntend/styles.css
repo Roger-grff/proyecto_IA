@@ -88,3 +88,20 @@ body, html {
 .input-area button:hover {
     background: #1558b0;
 }
+.confidence {
+    margin-top: 6px;
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+.confidence.high {
+    color: #1e8e3e;
+}
+
+.confidence.medium {
+    color: #f29900;
+}
+
+.confidence.low {
+    color: #d93025;
+}
