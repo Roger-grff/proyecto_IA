@@ -13,7 +13,7 @@ import threading
 import time
 
 # ------------------------------
-# Utilidades
+# Utilidades del chat bot
 # ------------------------------
 def limpiar_texto(texto):
     texto = texto.lower()
@@ -107,3 +107,4 @@ def abrir_frontend():
 if __name__ == "__main__":
     threading.Thread(target=abrir_frontend, daemon=True).start()
     app.run(host="127.0.0.1", port=5000, debug=False, use_reloader=False)
+
