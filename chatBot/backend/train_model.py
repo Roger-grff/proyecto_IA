@@ -70,7 +70,63 @@ questions = [
     "cuales son los paradigmas de programacion","explica paradigmas","tipos de paradigmas en programacion",
     "que es un algoritmo","explica algoritmo","ejemplo de algoritmo en python",
     "quien creo python","historia de python","origen de python",
-    "cuales son las buenas practicas de programacion","explica buenas practicas","como escribir codigo limpio"
+    "cuales son las buenas practicas de programacion","explica buenas practicas","como escribir codigo limpio",
+
+        # POO - NIVEL BASICO
+    "que es la poo",
+    "para que sirve la poo",
+    "ventajas de la programacion orientada a objetos",
+    "ejemplos de poo",
+    "poo en python",
+
+    # CLASES Y OBJETOS
+    "como crear una clase en python",
+    "como crear un objeto en python",
+    "diferencia entre clase y objeto",
+    "que es una instancia",
+    "explica instancia",
+
+    # ATRIBUTOS Y METODOS
+    "que es un atributo",
+    "atributos de una clase",
+    "metodos de una clase",
+    "diferencia entre atributo y metodo",
+    "metodos de instancia",
+
+    # CONSTRUCTOR
+    "que es el metodo init",
+    "para que sirve init",
+    "que es un constructor",
+    "constructor en python",
+    "ejemplo de constructor",
+
+    # ENCAPSULAMIENTO
+    "que es encapsulamiento en poo",
+    "atributos privados",
+    "atributos publicos",
+    "atributos protegidos",
+    "porque usar encapsulamiento",
+
+    # HERENCIA
+    "que es herencia en python",
+    "tipos de herencia",
+    "herencia simple",
+    "herencia multiple",
+    "para que sirve la herencia",
+
+    # POLIMORFISMO
+    "que es polimorfismo en python",
+    "ejemplo de polimorfismo",
+    "sobreescritura de metodos",
+    "metodo abstracto",
+    "clases abstractas",
+
+    # ABSTRACCION
+    "que es abstraccion",
+    "abstraccion en poo",
+    "para que sirve la abstraccion",
+    "ejemplo de abstraccion",
+    "abstraccion en python"
 ]
 
 # RESPUESTAS (una por concepto)
@@ -165,7 +221,63 @@ answers = [
     "Python fue creado por Guido van Rossum en 1991.",
     "Buenas prácticas: escribir código limpio, legible y modular.",
     "Buenas prácticas: escribir código limpio, legible y modular.",
-    "Buenas prácticas: escribir código limpio, legible y modular."
+    "Buenas prácticas: escribir código limpio, legible y modular.",
+
+        # POO - BASICO
+    "La POO es un paradigma que organiza el código usando objetos.",
+    "Sirve para crear programas más ordenados, reutilizables y escalables.",
+    "Permite reutilizar código, mejorar mantenimiento y organización.",
+    "Ejemplos de POO incluyen clases como Persona, Auto o Cuenta.",
+    "Python soporta POO mediante clases y objetos.",
+
+    # CLASES Y OBJETOS
+    "Una clase se crea usando la palabra reservada class.",
+    "Un objeto se crea instanciando una clase.",
+    "La clase es la plantilla y el objeto es la instancia.",
+    "Una instancia es un objeto creado a partir de una clase.",
+    "Instancia es un objeto concreto de una clase.",
+
+    # ATRIBUTOS Y METODOS
+    "Un atributo es una variable dentro de una clase.",
+    "Los atributos almacenan información del objeto.",
+    "Los métodos son funciones definidas dentro de una clase.",
+    "El atributo guarda datos y el método define acciones.",
+    "Los métodos de instancia operan sobre los atributos del objeto.",
+
+    # CONSTRUCTOR
+    "El método __init__ inicializa los atributos del objeto.",
+    "Sirve para asignar valores iniciales al objeto.",
+    "Un constructor es un método que se ejecuta al crear un objeto.",
+    "En Python el constructor es el método __init__.",
+    "Un constructor permite inicializar datos automáticamente.",
+
+    # ENCAPSULAMIENTO
+    "Encapsulamiento protege los datos internos de una clase.",
+    "Los atributos privados no deben accederse directamente.",
+    "Los atributos públicos pueden usarse desde fuera de la clase.",
+    "Los atributos protegidos se indican con un guion bajo.",
+    "Se usa para proteger datos y controlar el acceso.",
+
+    # HERENCIA
+    "Herencia permite que una clase herede de otra.",
+    "Existen herencia simple, múltiple y jerárquica.",
+    "Herencia simple ocurre cuando una clase hereda de otra.",
+    "Herencia múltiple ocurre cuando hereda de varias clases.",
+    "Sirve para reutilizar código y extender funcionalidades.",
+
+    # POLIMORFISMO
+    "Polimorfismo permite que un método se comporte distinto según el objeto.",
+    "Un mismo método puede tener diferentes implementaciones.",
+    "La sobreescritura redefine un método heredado.",
+    "Un método abstracto no tiene implementación.",
+    "Las clases abstractas definen métodos obligatorios.",
+
+    # ABSTRACCION
+    "La abstracción muestra solo lo esencial.",
+    "Permite ocultar detalles internos del funcionamiento.",
+    "Sirve para reducir la complejidad del sistema.",
+    "Un ejemplo es una interfaz que define métodos.",
+    "En Python se usa con clases abstractas."
 ]
 
 # ------------------------------
