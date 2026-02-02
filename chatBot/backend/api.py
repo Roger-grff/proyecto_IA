@@ -83,7 +83,7 @@ def chat():
     best_idx = int(np.argmax(similarities))
     confidence = float(np.max(similarities))
 
-    if confidence < 0.4 or best_idx >= len(answers):
+    if confidence < 0.60 or best_idx >= len(answers):
         return jsonify({
             "response": "No tengo información sobre ese tema todavía.",
             "confidence": round(confidence, 2)
